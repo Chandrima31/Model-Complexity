@@ -1,7 +1,7 @@
 
 import streamlit as st
 import pandas as pd
-from trace_model_updated import trace_excel_formulas_full
+from trace_model import trace_excel_formulas_full
 
 st.set_page_config(page_title="Excel Formula Dependency Tracer", layout="wide")
 
