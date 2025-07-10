@@ -19,7 +19,7 @@ def trace_excel_formulas_full(file):
     return traces, hop_summary
 
 
-def trace_formula_chain_with_hops(wb, sheet_name, cell_ref, visited=None, depth=0, max_depth=100):
+def trace_formula_chain_with_hops(wb, sheet_name, cell_ref, visited=None, depth=0, max_depth=200):
     if visited is None:
         visited = set()
 
